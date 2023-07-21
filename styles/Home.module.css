@@ -1,0 +1,116 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  align-items: space-between;
+  justify-content: center;
+  padding: 2rem;
+  padding-top: 0px;
+}
+
+.articlePreview {
+  /* margin-top: 10px; */
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 600px;
+  background-color: #f5f5f5;
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-right: 5px;
+}
+
+.formContainer {
+  /* margin-top: 10px; */
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 600px;
+  background-color: #f5f5f5;
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-left: 5px;
+}
+
+.inlineContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: none;
+  min-height: 100px;
+}
+
+.button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #0070f3;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.button:hover {
+  background-color: #0050b3;
+}
+
+.button:disabled {
+  background-color: #a5a5a5;
+  cursor: not-allowed;
+}
+
+.inlineButton {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0.75rem;
+  background-color: #0070f3;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  width: 26%;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+.inlineButton:hover {
+  background-color: #0050b3;
+}
+
+.inlineButton:disabled {
+  background-color: #a5a5a5;
+  cursor: not-allowed;
+}
+
+.inlineInput {
+  width: 70%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.ipfsAddress {
+  font-family: var(-mono);
+  font-size: 0.9em;
+}
